@@ -135,7 +135,7 @@ public class Tab1 extends Fragment implements View.OnClickListener {
             try {
                 photoFile = createImageFile();
             } catch (IOException ex) {
-                e.printStackTrace();
+                ex.printStackTrace();
             }
             // Continue only if the File was successfully created
             if (photoFile != null) {
